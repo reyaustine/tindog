@@ -1,0 +1,183 @@
+#title{
+  background-color: #ff4c68;
+  position: relative;
+}
+.container-fluid{
+  padding: 3% 15% 0%;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  padding-top: .5rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size: 3.4rem;
+  line-height: 1.3;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 2rem;
+}
+
+.navbar-brand{
+  font-size:2.5rem;
+  font-weight: 600;
+}
+.nav-link{
+  color:white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: auto 15px auto 15px;
+}
+/* End of Navigation Bar */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.iphone6{
+  left: 80px;
+  transform: rotate(20deg);
+  position: relative;
+  width: 55%;
+  
+}
+
+#features{
+  background-color: #fff;
+  margin: 50px 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
+
+.feature-desc{
+  color:#8f8f8f;
+  position: relative;
+  margin-left: 10%;
+  width: 80%;
+  line-height: 2;
+}
+
+.fa{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.fa:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+  color:#fff;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonials-image{
+ border-radius: 100%;
+ width: 10%;
+ margin: 20px;
+}
+
+#press{
+  color:#fff;
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+padding: 7% 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  padding: 3% 10%;
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.cta-message{
+  margin: 3% 15%;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.download-button-bottom{
+  margin: 3% 3% 5% 0;
+}
+ #footer {
+   text-align: center;
+ }
+ .socmed{
+  padding:7% 1% 2%;
+ }
+
+@media (max-width:1028px) {
+  .iphone6{
+    position:static;
+    transform: rotate(0);
+  }
+  
+  #title{
+    text-align: center;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  #pricing{
+    padding: 60px;
+  }
+    .cta-message {
+      margin: 3% 15%;
+      font-size: 1.5rem;
+    }
+  
+ 
+}
+
+@media (max-width:700px) {
+ 
+}
+
+@media (max-width:468px) {
+}
